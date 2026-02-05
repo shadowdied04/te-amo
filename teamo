@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Te Amo 💖</title>
+<style>
+body{
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background: radial-gradient(circle at top, #ff66cc, #99004d);
+  font-family: Arial, sans-serif;
+  overflow:hidden;
+}
+h1{
+  font-size:60px;
+  color:#fff;
+  text-align:center;
+  text-shadow:
+    2px 2px 0 #ff99dd,
+    4px 4px 0 #ff66cc,
+    6px 6px 10px rgba(0,0,0,0.4);
+  animation: latido 1.2s infinite;
+}
+@keyframes latido{
+  0%,100%{transform:scale(1);}
+  50%{transform:scale(1.08);}
+}
+</style>
+</head>
+<body>
+<h1>TE AMO MUCHO<br>MI AMOR 💖</h1>
+</body>
+</html>
